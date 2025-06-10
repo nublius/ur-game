@@ -1,4 +1,4 @@
-export class Token {
+class Token {
 	#player; // Private field
 	#id;
 	#isOnBoard = false;
@@ -53,4 +53,4 @@ export class Token {
 		this.#occupiedCell = null;
 		this.#hasExited = false;
 	}
-}
+};

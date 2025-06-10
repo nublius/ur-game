@@ -1,4 +1,4 @@
-export class Cell {
+class Cell {
 	#occupant = null; // Private field
 
 	constructor(index) {
@@ -32,4 +32,4 @@ export class Cell {
 	get isOccupied() {
 		return this.#occupant !== null;
 	}
-}
+};

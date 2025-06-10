@@ -1,4 +1,4 @@
-export class Player {
+class Player {
 	#name; // Private field
 	#tokenArray = [];
 	#diceRoll = 0;
@@ -37,4 +37,4 @@ export class Player {
 	getAvailableTokens() {
 		return this.#tokenArray.filter(token => !token.hasExited);
 	}
-}
+};
